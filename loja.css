@@ -1,0 +1,150 @@
+   
+h3{
+    color: #9b5de5; 
+    border-radius: 5px;
+    font-size: 25px; 
+    font-style: oblique;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+p{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    margin: 0%;
+    font-style: normal;
+}
+
+#logo{
+    display: flex;
+    justify-content: center; 
+    height: 100px;  
+}
+
+#descricao{
+    background-color: #a9def9;
+    color: #f26a8d;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+}
+
+.nomeJaqueta{
+    color: #fb6f92;
+    font-style:italic;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+body{
+    background-color: blanchedalmond;
+     overflow-x: hidden;
+}
+
+.botaoAdicionar{
+    width: 20px;
+    height: 30px;
+    display:flex;
+}
+
+
+.botaoCompra{
+    display: flex;
+    justify-content: center; 
+    align-items:flex-end; 
+    font-size: 15px;
+    height: 50px;
+    width: 150px ;
+    border-radius: 5px;
+    padding: 5px;
+    gap: 15px;       
+}
+
+.adicionarCarrinho{
+    background-color: #ff8fab;
+    color: black;
+    border-radius: 8px;
+}
+
+.adicionarCarrinho:hover{
+    background-color: #9b5de5;
+    color: #a9def9;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+
+}
+
+img{
+    width: 300px;
+}
+
+.blocoProduto {
+    background-color: #caf0f8;
+    width: 450px;
+    height: 740px;
+    border: solid;
+    border-color: black;
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    min-width: 1450px;
+}
+
+#botaoEnviar{
+    background-color:#ff8fab;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin: 0 auto;
+    width: 85px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 6px;
+    padding: 0;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+#botaoEnviar img {
+    width: 20px;
+    height: 20px;
+}
+
+#botaoEnviar:hover{
+    background-color: #a9def9;
+    color: #9b5de5;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#carrinho{
+    color: black;
+}
+
+@media (min-width: 1024px) {
+  body {
+    background-color: blanchedalmond;
+  }
+}
