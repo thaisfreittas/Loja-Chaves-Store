@@ -27,6 +27,12 @@ Abra o arquivo loja.html no navegador de sua preferência.
 
 Este projeto foi desenvolvido como exercício prático durante um curso de desenvolvimento web, com o objetivo de aplicar e fixar os conhecimentos de HTML, CSS e JavaScript em um projeto real de front-end.
 
+📸 Preview
+
+<img width="1366" height="768" alt="{E6222591-7557-4EA7-92F0-E3DB8AE5F17A}" src="https://github.com/user-attachments/assets/749e4246-51f1-4214-af27-bde44c493011" />
+
+
+
 📌 Status
 
 ✅ Projeto concluído — exercício de curso
